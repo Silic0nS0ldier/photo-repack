@@ -4,9 +4,14 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>PhotoRepack</RootNamespace>
+    <Version>0.1.0-dev</Version>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-HDRI-OpenMP-x64" Version="7.24.1" />
+    <PackageReference Include="Magick.NET.Core" Version="7.0.1" />
     <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.21216.1" />
   </ItemGroup>
 
