@@ -2,6 +2,11 @@
 
 A simple tool which processes images into a more compact form, with (hopefully) zero data loss. Unsupported files will be copied.
 
+To use;
+
+1. Clone (no binary is currently available)
+2. `dotnet run -- --input-dir ./input-path --output-dir ./output-path
+
 ## Roadmap
 
 ### Xplat Paths
